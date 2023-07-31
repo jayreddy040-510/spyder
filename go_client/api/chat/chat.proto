@@ -2,6 +2,8 @@ syntax = "proto3";
 
 package chat;
 
+option go_package = "github.com/jayreddy040-510/spyder/go_client/api/chat";
+
 message ChatRequest {
     string msg = 1;
     string model = 2;
