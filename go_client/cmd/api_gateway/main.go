@@ -12,8 +12,8 @@ import (
 )
 
 func main() {
-	listenAddr := "localhost:8080"
-	gRPCAddress := "localhost:50051"
+	listenAddr := "0.0.0.0:8080"
+	gRPCAddress := "python_server:50051"
 
 	// Set up a connection to the gRPC server.
 	conn, err := grpc.Dial(gRPCAddress, grpc.WithTransportCredentials(insecure.NewCredentials()))
