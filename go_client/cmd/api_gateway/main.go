@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	pb "github.com/jayreddy040-510/spyder"
+	pb "github.com/jayreddy040-510/spyder/go_client/api/chat"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
